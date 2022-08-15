@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1656472781 source:/home/juanpaubuntu/Documentos/CURSO DE PROGRAMACION ESTRUCTURADA/Librerias/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Operaciones.h"
+
+1656472728 /home/juanpaubuntu/Documentos/CURSO DE PROGRAMACION ESTRUCTURADA/Librerias/Operaciones.h
+

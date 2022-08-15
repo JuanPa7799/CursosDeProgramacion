@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656471640 source:/home/juanpaubuntu/Documentos/CURSO DE PROGRAMACION ESTRUCTURADA/GuardarEnUnArchivo/main.c
+	<stdio.h>
+	<stdlib.h>
+

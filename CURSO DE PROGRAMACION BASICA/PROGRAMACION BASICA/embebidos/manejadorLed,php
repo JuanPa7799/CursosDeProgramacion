@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<?php
+    $encendido = filter input (INPUT GET, "encendido");
+    if ($encendido == 'on')
+    {
+      shell exec ("/usr/local/bin/ uartTXT l1");
+    }
+    else
+    {
+      shell exec ("/usr/local/bin/ uartTXT l0");
+    }
+?>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FOrmulario para controlar un LED</title>
+  </head>
+  <body>
+    <form action="manekadorLed.php" method="GET">
+      LED: <input name = "encendido" type = "checkbox" value = $encendido />
+      <input type="submit" value="ENVIAR" />
+    </form>
+  </body>
+</html>

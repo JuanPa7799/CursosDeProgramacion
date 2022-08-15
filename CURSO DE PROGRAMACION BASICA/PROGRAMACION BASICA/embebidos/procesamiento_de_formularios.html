@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--$_GET [usuario] regresa el valor del campo usuario recibido
+    por el metodo GET. $_POST funciona igual para el metodo POST
+    filter_input() tambien regresa el valor de un campo recibido por
+    GET O POST, pero evita que se introduscan comandos html en el
+    valor del campo.
+      -->
+      <?php
+      $nombre = filter_input (INPUT_GET, "usuario");
+      echo "Hola, ". $nombre ."!";
+      ?>
+  </body>
+</html>

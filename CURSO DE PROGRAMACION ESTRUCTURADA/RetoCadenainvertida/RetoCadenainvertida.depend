@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656193485 source:/home/juanpaubuntu/Documentos/CURSO DE PROGRAMACION ESTRUCTURADA/RetoCadenainvertida/main.c
+	<stdio.h>
+	<stdlib.h>
+

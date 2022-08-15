@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655857968 source:/home/juanpaubuntu/Documentos/CURSO DE PROGRAMACION ESTRUCTURADA/MiPrimerPrograma2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
