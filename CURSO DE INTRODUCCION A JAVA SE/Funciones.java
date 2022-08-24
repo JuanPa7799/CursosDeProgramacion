@@ -23,6 +23,14 @@ public class Funciones {
     public static double sphereVolumen (double r){
         return (4/3) * Math.PI * Math.pow(r, 3);
     }
+
+    /**
+     * Descripcion: Esta funcion que especificamos convierte una moneda a una cantidad de dolares
+     * 
+     * @param quantity Cantidad de dinero
+     * @param currency Tio de moneda
+     * @return quantify Devuelve la cantidad actualizado en dolares
+     */
     public static double converToDolar(double quantity, String currency) {
         switch (currency){
             case "MXM":

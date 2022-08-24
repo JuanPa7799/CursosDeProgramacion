@@ -3,7 +3,6 @@ public class Casting {
         
         //En un año  ubicar 30 perritos 
         //Cuantos perritos ubique al mes?
-
         double monthlyDogs = 30.0 /12.0;
         System.out.println(monthlyDogs);
 
