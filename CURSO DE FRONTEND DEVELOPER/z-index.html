@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background: palegoldenrod;
+        }
+        .one{
+            z-index: 1;
+        }
+        .two{
+            z-index: 2;
+        }
+        .red{
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            z-index: 4;
+        }
+        .blue{
+            width: 20px;
+            height: 20px;
+            background-color: blue;
+            z-index: 3;
+        }
+        .Yellow{
+            width: 20px;
+            height: 20px;
+            background-color: yellow;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">Master</div>
+    <div class="two">Platzi</div>
+
+    <section>
+        <div class="red">Red</div>
+        <div class="Blue">Blue
+            <div class="Yellow">Yellow</div>
+        </div>
+    </section>
+</body>
+</html>
