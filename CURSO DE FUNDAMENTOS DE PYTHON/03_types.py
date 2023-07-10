@@ -1,7 +1,7 @@
 # string
 
 my_name = "JuanPa"
-my_name = "Garcia"
+my_name = 'Garcia'
 print ("my_name => ", my_name)
 print(type(my_name))
 
