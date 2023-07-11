@@ -25,7 +25,7 @@ print(lives)
 lives += 5
 print(lives)
 
-number = 45000000000000000000000.1
+number = 4500000000000000000.1
 print(number)
 
 number_b= 0.0000000000000000001
