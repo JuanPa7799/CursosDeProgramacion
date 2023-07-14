@@ -12,6 +12,8 @@ while True:
     print('*'*20)
     print('Round', rounds)
     print('*'*20)
+    print("Computer wins =>", computer_wins)
+    print("User wins =>", user_wins)
     
     
 
@@ -19,6 +21,7 @@ while True:
 
     if not user_option in options:
         print("Esa opcion no es valida")
+        continue
 
     computer_option = random.choice(options)
 
@@ -58,5 +61,18 @@ while True:
             print("Piedra gana a tijeras")
             print("Computer gano!")
             computer_wins += 1
+            
+            
+    if computer_wins == 2 :
+        print("Computer wins =>", computer_wins)
+        print("User wins =>", user_wins)
+        print("El ganador FINAL es la computadora")
+        break
+    
+    if user_wins == 2 :
+        print("Computer wins =>", computer_wins)
+        print("User wins =>", user_wins)
+        print("El ganador FINAL es el usuario")
+        break
     
     rounds += 1
