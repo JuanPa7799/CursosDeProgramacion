@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1>Contador de tiempo</h1>
+      <form id="form">
+        <label for="apps">Selecciona las aplicaciones que quieres monitorear:</label>
+        <input type="checkbox" id="apps" name="apps" value="Chrome" />Chrome
+        <input type="checkbox" id="apps" name="apps" value="Word" />Word
+        <input type="checkbox" id="apps" name="apps" value="Excel" />Excel
+        <!-- Agrega más aplicaciones si quieres -->
+        <label for="tasks">Agrega manualmente las tareas programadas:</label>
+        <input type="text" id="tasks" name="tasks" placeholder="Escribe el nombre de la tarea" />
+        <input type="number" id="tasks" name="tasks" placeholder="Escribe el tiempo estimado en minutos" />
+        <!-- Agrega más campos si quieres -->
+        <button id="start-stop">Iniciar/Detener</button>
+      </form>
+      <div id="chart">
+        <!-- Aquí se mostrará el gráfico del tiempo usado en cada aplicación -->
+      </div>
+    </div>
+  </body>
+</html>

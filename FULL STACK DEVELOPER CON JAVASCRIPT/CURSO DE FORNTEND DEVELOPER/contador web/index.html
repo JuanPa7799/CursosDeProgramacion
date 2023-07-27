@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contador de Tiempo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Contador de Tiempo</h1>
+  <div class="task">
+    <label for="taskName">Nombre de la Tarea:</label>
+    <input type="text" id="taskName" placeholder="Ingrese el nombre de la tarea">
+    <button onclick="startTimer()">Iniciar Tarea</button>
+    <button onclick="stopTimer()">Detener Tarea</button>
+  </div>
+  <div class="time-display">
+    <h2>Tiempo Transcurrido:</h2>
+    <span id="timeElapsed">00:00:00</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
