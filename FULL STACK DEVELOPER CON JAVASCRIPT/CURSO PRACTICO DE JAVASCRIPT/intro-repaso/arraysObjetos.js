@@ -18,4 +18,26 @@ function imprimirPrimerElemetoArray(arr){
 }
 
 
+imprimirPrimerElemetoArray("Juanita", "Rigoberto", "NAtilla");
 
+
+
+
+function imprimirPrimerElemetoArray2(arra){
+    for (let i =0; i < arra.lenght; i++){
+        console.log(arra[i]);
+    }
+}
+
+Object.values(obj);
+
+const arr =Object.values(obj);
+
+
+function imprimirElementoPorElementoUnObjeto(obj){
+    const arr   = Object.values(obj);
+    for (let i = 0; i < arr.length; i++) {
+        console.log (arr[i]);
+        
+    }
+}
